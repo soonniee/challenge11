@@ -21,7 +21,7 @@ nav {
   justify-content: space-between;
 }
 nav .header {
-  height: 67%;
+  /* height: 67%; */
 }
 h3 {
   text-transform: uppercase;
@@ -39,9 +39,9 @@ nav p {
   width: 60%;
   margin-bottom: 15px;
 }
-/* .menu ul{
-    margin-bottom:150px;
-} */
+.menu ul {
+  margin-bottom: 10px;
+}
 .menu li {
   font-size: 14px;
   font-weight: 600;
@@ -62,12 +62,14 @@ nav p {
   border-bottom: 1px solid black;
 }
 .office-info {
-  height: 30%;
+  /* height: 30%; */
   margin-left: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
+}
+.office-info div {
+  margin-bottom: 15px;
 }
 h4 {
   font-weight: 600;
